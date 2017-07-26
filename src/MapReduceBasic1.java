@@ -74,7 +74,7 @@ public class SecondAnswer {
   public static void main(String[] args) throws Exception {
     JobConf conf = new JobConf(SecondAnswer.class);
     
-    conf.setJobName("SecondAnswer");
+    conf.setJobName("MapAllPeopleOfDifferentAges");
 
     conf.setOutputKeyClass(Text.class);
     conf.setOutputValueClass(IntWritable.class);

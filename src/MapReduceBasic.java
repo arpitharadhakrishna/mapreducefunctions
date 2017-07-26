@@ -39,7 +39,7 @@ public class FirstAnswer {
 
   public static void main(String[] args) throws Exception {
     JobConf conf = new JobConf(FirstAnswer.class);
-    conf.setJobName("FirstAnswer");
+    conf.setJobName("MapAllMovies");
 
     conf.setOutputKeyClass(Text.class);
     conf.setOutputValueClass(IntWritable.class);
